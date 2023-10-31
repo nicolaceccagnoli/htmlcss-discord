@@ -1,0 +1,261 @@
+/* 
+    RESET
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+    
+*/
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+/* 
+    HEADER
+*/
+
+header {
+    background-color: #ADD8E6;
+}
+
+/* 
+    HEADER-TOP
+*/
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    display: flex;
+    width: 100%;
+}
+
+.icon{
+    flex-grow: 1;
+}
+
+.icon:nth-of-type(3){
+    display: flex;
+    justify-content: flex-end ;
+}
+
+.icon:nth-of-type(2){
+    flex-grow:2;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+
+/* 
+    HEADER BOTTOM
+*/
+
+header .bottom{
+    width: 100%;
+    display: flex;
+}
+
+.hero-fuchsia{
+    width: 50%;
+    margin: 35px auto;
+}
+
+/* 
+    SECTION 
+*/
+
+.section{
+    display: flex;
+    min-height: 500px;
+}
+
+main > section:nth-of-type(2) > .container{
+flex-direction: row-reverse;
+}
+
+
+/* 
+    FOOTER 
+*/
+
+
+/* 
+    FOOTER TOP
+*/
+
+.footer-top{
+    background-color: #23272A;
+}
+
+.footer-top-container{
+    min-height: 700px;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    border: 1px dashed black;
+}
+
+.footer-top-container > div {
+    width: 30%;
+}
+
+.footer-top-container > div:nth-of-type(2){
+    width: 70%;
+}
+.hero-aqua{
+    display: flex;
+}
+.hero-aqua > *{
+    border: 1px dashed white;
+    width: 25%;
+}
+
+/* 
+    FOOTER BOTTOM
+*/
+
+.footer-bottom{
+    min-height: 100px;
+    margin-top: 1px;
+    display: flex;
+}
+
+.footer-bottom > .container {
+    align-items: flex-end;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    width: 100%;
+    min-height: 75%;
+}
+
+/* 
+    DEBUG HEADER
+*/
+
+.debug header .top{
+    min-height: 50px;
+}
+
+.debug header .top .icon {
+    background-color: #DAA520;
+    border: 1px dashed black;
+}
+
+.debug header .bottom{
+    background-color: #00008B;
+    min-height: 400px;
+}
+
+.hero-fuchsia{
+    background-color: #EE81EE;
+    border: 1px dashed black;
+    min-height: 75%;
+}
+
+/* 
+    DEBUG MAIN
+*/
+
+.debug main .container{
+    border: 1px dashed black;
+    min-height: 450px;
+    margin: 35px auto;
+}
+
+.debug main .container .hero-blue{
+    background-color: #1C90FF;
+    width: 70%;
+}
+
+.debug main .container .hero-pink{
+    background-color: #FEC0CA;
+    width: 30%;
+}
+
+.debug main .container .hero-green{
+    background-color: #228B21;
+    width: 100%;
+    min-height: 900px;
+}
+
+.section:nth-of-type(2n+2){
+    background-color: #D3D3D3;
+}
+
+/* 
+    DEBUG FOOTER TOP
+*/
+
+
+.debug footer .footer-top .footer-top-container {
+    border: 1px dashed black;
+    width: 100%;
+}
+
+.debug footer .hero-lightcoral{
+    background-color: #EF8080;
+    border: 1px dashed black;
+}
+
+.debug footer .hero-aqua{
+    background-color: #20B1A9;
+    border: 1px dashed white;
+}
+
+/* 
+    DEBUG FOOTER BOTTOM
+*/
+
+.debug footer .footer-bottom{
+    background-color: #23272A;
+}
+
+.debug footer .footer-bottom .buttons {
+    background-color: #7FFFD3;
+}
+
+.logo{
+    background-color: #FFB6C1;
+    border: 1px dashed black;
+}
+
+button{
+    background-color: #FFB6C1;
+    border: 1px dashed black;
+}
+
+.logo, button {
+    padding: 4px;
+}
