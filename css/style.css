@@ -37,6 +37,10 @@ h2 {
     background-color: #F6F6F6;
 }
 
+/* 
+    BOTTONI
+*/
+
 .button {
     padding: 10px;
 }
@@ -54,6 +58,11 @@ h2 {
     padding: 20px;
     font-size: 1.2em;
 }
+
+.logo, button {
+    padding: 4px;
+}
+
 /* 
     HEADER
 */
@@ -215,10 +224,6 @@ flex-direction: row-reverse;
 }
 
 /* 
-    FOOTER
-*/
-
-/* 
     FOOTER TOP
 */
 
@@ -230,13 +235,14 @@ flex-direction: row-reverse;
     width: 100%;
     min-height: 400px;
     display: flex;
-    margin-top: 15px;
-    margin-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 0px;
 }
 
 .footer-top-container > * {
     padding: 25px 10px;
 }
+
 
 .hero-lightcoral > * {
     color: white;
@@ -249,6 +255,15 @@ flex-direction: row-reverse;
 
 .hero-lightcoral > div > img {
     width: 8%;
+}
+
+.fa-brands {
+    font-size: x-large;
+    width: 15%;
+}
+
+.language, .fa-brands {
+    padding: 10px 0;
 }
 
 .footer-top-container > div:first-of-type {
@@ -283,14 +298,16 @@ flex-direction: row-reverse;
 hr {
     width: 75%;
     margin: 0 auto;
+    border: 1px solid #7288DA;
 }
 /* 
     FOOTER BOTTOM
 */
 
 .footer-bottom{
-    min-height: 100px;
+    padding: 10px 0;
     display: flex;
+    background-color: #23272A;
 }
 
 .footer-bottom > .container {
@@ -308,6 +325,10 @@ hr {
     min-height: 75%;
 }
 
+.buttons > a {
+    background-color: #7288DA;
+    color: white;
+}
 /* 
     DEBUG HEADER
 */
@@ -374,24 +395,17 @@ hr {
     DEBUG FOOTER BOTTOM
 */
 
-.debug footer .footer-bottom{
-    background-color: #23272A;
-}
-
-.debug footer .footer-bottom .buttons {
+/* .debug footer .footer-bottom .buttons {
     background-color: #7FFFD3;
-}
+} */
 
-.logo{
+/* .logo{
     background-color: #FFB6C1;
     border: 1px dashed black;
-}
+} */
 
-button{
+/* .button{
     background-color: #FFB6C1;
     border: 1px dashed black;
-}
+} */
 
-.logo, button {
-    padding: 4px;
-}
