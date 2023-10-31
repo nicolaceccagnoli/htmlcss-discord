@@ -14,7 +14,7 @@
 */
 
 html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Helvetica, sans-serif;
 }
 
 
@@ -23,6 +23,13 @@ html{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
 }
 /* 
     HEADER
@@ -39,6 +46,7 @@ header {
 */
 
 .top{
+    min-height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,26 +54,27 @@ header {
 
 .icons{
     display: flex;
+    align-items: flex-end;
     width: 100%;
 }
 
 .icon{
     flex-grow: 1;
-}
-
-.icon:nth-of-type(3){
     display: flex;
-    justify-content: flex-end ;
 }
 
 .icon:nth-of-type(2){
     flex-grow:2;
 }
 
+.icon:nth-of-type(3){
+    justify-content: flex-end;
+}
+
 ul{
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -73,12 +82,22 @@ li{
     list-style: none;
 }
 
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
 /* 
     HEADER BOTTOM
 */
 
 header .bottom{
     width: 100%;
+    min-height: 400px;
     display: flex;
 }
 
@@ -169,19 +188,15 @@ hr {
     DEBUG HEADER
 */
 
-.debug header .top{
-    min-height: 50px;
-}
 
-.debug header .top .icon {
+/* .debug header .top .icon {
     background-color: #DAA520;
     border: 1px dashed black;
-}
+} */
 
-.debug header .bottom{
-    /* background-color: #00008B; */
-    min-height: 400px;
-}
+/* .debug header .bottom{
+    background-color: #00008B;
+} */
 
 .hero-fuchsia{
     background-color: #EE81EE;
