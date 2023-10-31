@@ -26,10 +26,21 @@ html{
 }
 
 .button {
+    padding: 10px;
+}
+
+.small{
     background-color: white;
     color: black;
-    padding: 10px;
     border-radius: 20px;
+}
+
+.big{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 1.2em;
 }
 /* 
     HEADER
@@ -88,24 +99,44 @@ a {
     color: white;
 }
 
-
-
-
 /* 
     HEADER BOTTOM
 */
 
 header .bottom{
     width: 100%;
-    min-height: 400px;
+    min-height: 500px;
     display: flex;
 }
 
-.hero-fuchsia{
+.jumbo{
     width: 50%;
+    min-height: 75%;
     margin: 35px auto;
+    text-align: center;
+    color: white;
 }
 
+.jumbo h1 {
+    font-size: 45px;
+}
+
+.jumbo p {
+    font-size: larger;
+    line-height: 150%;
+}
+.jumbo > *{
+    margin: 50px auto;
+}
+
+.jumbo > a:first-of-type{
+    background-color: white;
+    color: black;
+}
+
+.jumbo .button {
+    margin: 0 10px;
+}
 /* 
     SECTION 
 */
@@ -198,11 +229,10 @@ hr {
     background-color: #00008B;
 } */
 
-.hero-fuchsia{
+/* .jumbo{
     background-color: #EE81EE;
     border: 1px dashed black;
-    min-height: 75%;
-}
+} */
 
 /* 
     DEBUG MAIN
