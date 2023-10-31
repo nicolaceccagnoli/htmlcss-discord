@@ -135,13 +135,16 @@ flex-direction: row-reverse;
     width: 25%;
 }
 
+hr {
+    width: 75%;
+    margin: 0 auto;
+}
 /* 
     FOOTER BOTTOM
 */
 
 .footer-bottom{
     min-height: 100px;
-    margin-top: 1px;
     display: flex;
 }
 
