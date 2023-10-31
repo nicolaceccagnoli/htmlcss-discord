@@ -13,7 +13,7 @@
     
 */
 
-html{
+html {
     font-family:Helvetica, sans-serif;
 }
 
@@ -155,6 +155,15 @@ header .bottom{
     margin: 0 10px;
 }
 
+.download {
+    display: flex;
+    justify-content: center;
+}
+
+.download a:first-of-type {
+    background-color: white;
+    color: black;
+}
 /* 
     SECTION 
 */
@@ -219,8 +228,9 @@ flex-direction: row-reverse;
     font-size:32px;
 }
 
-.ready > a {
+.ready .download a{
     background-color: #7288DA;
+    color: white;
 }
 
 /* 
@@ -304,7 +314,7 @@ hr {
     FOOTER BOTTOM
 */
 
-.footer-bottom{
+.footer-bottom {
     padding: 10px 0;
     display: flex;
     background-color: #23272A;
