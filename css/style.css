@@ -45,8 +45,8 @@ h2 {
     filter: opacity(4%);
 }
 
-main > div:nth-of-type(2) > img {
-    transform: rotate('180deg');
+.rotate{
+    transform: rotate(180deg);
 }
 
 /* 
