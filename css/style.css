@@ -78,8 +78,7 @@ header {
 */
 
 .top{
-    min-height: 50px;
-    display: flex;
+    padding: 25px 0;
     align-items: center;
     justify-content: center;
 }
