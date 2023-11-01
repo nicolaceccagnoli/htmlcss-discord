@@ -250,7 +250,7 @@ flex-direction: row-reverse;
 }
 
 .footer-top-container > * {
-    padding: 25px 10px;
+    padding: 25px 0px;
 }
 
 
@@ -286,6 +286,7 @@ flex-direction: row-reverse;
 
 .hero-aqua{
     display: flex;
+    column-gap: calc(100% / 6);
 }
 
 .hero-aqua > div > ul {
