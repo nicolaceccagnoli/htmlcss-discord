@@ -193,7 +193,7 @@ flex-direction: row-reverse;
 .hero-blue {
     width: 60%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .hero-blue img {
